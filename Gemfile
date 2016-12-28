@@ -27,7 +27,6 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'dotenv-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap-sass'
@@ -35,6 +34,7 @@ gem 'anjlab-bootstrap-rails', require: 'bootstrap-rails'
 gem 'font-awesome-rails'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'dotenv-rails'
   gem 'byebug', platform: :mri
   gem 'guard'
   gem 'guard-rspec'
